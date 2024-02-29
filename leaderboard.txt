@@ -1,1 +1,1 @@
-{"Bikash Shrestha": 0, "Bikram Shrestha": 0, "Bigyan Shrestha": 0, "Beekita Shrstha": -10, "Bigyata Shrstha": -50}
+{"Naruto": 0, "Sasuke": 0, "Shikamaru": 0, "Choji": -10, "Neji": -49}

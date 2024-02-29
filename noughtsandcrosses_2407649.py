@@ -419,8 +419,11 @@ def save_score(score):
         # Load existing leaderboard socres
         leaders = load_scores()
 
-        # Update the leaderboard with new score
-        leaders[player_name] = score
+        if player_name in leaders:
+            leaders[player_name] += score
+        else:
+            # Update the leaderboard with new score
+            leaders[player_name] = score
 
         # Save the updated leaderboard to leaderboard.txt
         with open("leaderboard.txt", "w", encoding="utf-8") as file:
